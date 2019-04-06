@@ -6,7 +6,7 @@ from cryptosteganography import CryptoSteganography
 
 DEFAULT_COVER_FILE = 'cover.png'
 DEFAULT_OUTFILE = 'outfile.png'
-DEFAULT_ENCRYPTION_PASSWORD= 'Elm34lp9Avm43l2C3n4lkmM1kQwe'
+DEFAULT_ENCRYPTION_PASSWORD = 'Elm34lp9Avm43l2C3n4lkmM1kQwe'
 
 def create_default_image():
     img = Image.new('RGB', (4096, 3072), (153, 51, 255))
