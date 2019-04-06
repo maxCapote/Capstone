@@ -1,7 +1,5 @@
 import os
-import sys
 import argparse
-import requests
 import pyAesCrypt
 from PIL import Image
 from cryptosteganography import CryptoSteganography
