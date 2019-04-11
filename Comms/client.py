@@ -1,3 +1,5 @@
+# Source: https://stackoverflow.com/questions/13993514/sending-receiving-file-udp-in-python
+
 import socket
 
 s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
