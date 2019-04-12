@@ -33,7 +33,7 @@ def Main():
     parser.add_argument('-e', '--extract', help='encrypted file to extract')
     parser.add_argument('-d', '--decrypt', help='encrypted file to decrypt')
     parser.add_argument('-p', '--passwd', help='encryption password')
-    
+
     args = parser.parse_args()
     password = validate_password(args.passwd)
 
