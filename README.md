@@ -6,3 +6,6 @@ Code Components
 * Embed encrypted copy of target file in cover file
 * Send copy of cover file with sensitive data to attacker
 * Delete both image files and encrypted file
+## Data Recovery Sequence
+* Extract encrypted file from image file
+* Decrypt extracted file
