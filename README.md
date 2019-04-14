@@ -1,5 +1,6 @@
 # Capstone
 Code Components
+The final iterations used are stored in the 'Master Final' directory
 ## Data Extraction Sequence
 * Create image file (cover file)
 * Encrypt target file (file to be extracted)
