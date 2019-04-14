@@ -1,6 +1,7 @@
 # Capstone
-Code Components  
-The final iterations used are stored in the 'Master Final' directory
+Code Components
+* The final iterations used are stored in the 'Master Final' directory
+* The PoC directory contains screenshots of the intended intrusion from start to finish
 ## Data Extraction Sequence
 * Create image file (cover file)
 * Encrypt target file (file to be extracted)
